@@ -8,14 +8,7 @@ This time we are going to use a different loss function, mean absolute error (ma
 
 $mae = \frac{1}{N} \sum |y_i - \hat{y}| $
 
-Simiarly we take the derivative, interestingly the derivative of $|x|$ is 
-
-$\left\{ 
-  \begin{array}{ c l }
-    1 & \quad x \gt 0 \\
-    -1  & \quad x \lt 0
-  \end{array}
-\right.$
+Simiarly we take the derivative, interestingly the derivative of $|x|$ is 1 or -1 depending on whether x > 0 or x < 0. 
 
 so the derivative is 
 
